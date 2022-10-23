@@ -29,8 +29,7 @@ const sidebarVariants = {
 
     <motion.div className='Sidebar'
     variants={sidebarVariants}
-    animate={window.innerWidth<=768? `${expanded}` :
-    ''}>
+    animate={window.innerWidth<=768? `${expanded}` :  ""}>
     
     {/* logo */}
     <div className='logo'>
