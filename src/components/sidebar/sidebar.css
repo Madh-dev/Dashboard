@@ -44,14 +44,15 @@ height: 3rem;
     cursor: pointer;
 }
 .active{
-    background: var(--activeItem);
+    background: #bdc3c7;
+     /* var(--activeItem); */
     margin-left: 0;
 }
 .active::before{
     content: '';
     width: 8px;
     height: 100%;
-    background: var(--pink);
+    background:  #642b73;
     margin-right: calc(1rem - 8px); 
 }
 .menu .menuItem:last-child{
@@ -61,6 +62,7 @@ height: 3rem;
 }
 .bars{
     display: none;
+    color:#DFEC51,#73aada
 }
 
 @media screen and (max-width: 1200px){

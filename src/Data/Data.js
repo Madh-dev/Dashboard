@@ -4,7 +4,6 @@ import {
     UilUsersAlt,
     UilPackage,
     UilChart,
-    UilSignOutAlt,
     UilMoneyWithdrawal,
     UilUsdSquare
 } from '@iconscout/react-unicons';
@@ -41,7 +40,7 @@ export const CardData =[
     {
         titles: 'Sales',
         color: {
-            backGround: 'linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)',
+            backGround: 'linear-gradient(180deg, #bb67ff 0%, #5ffae0 100%)',
             boxShadow:'0px 10px 20px 0px #e0c6f5'
         },
         barValue: 70,
@@ -56,7 +55,7 @@ export const CardData =[
     }, {
         titles: 'Revenue',
         color: {
-            backGround: 'linear-gradient(180deg, #ff919d 0%, #fc929d 100%)',
+            backGround: 'linear-gradient(200deg, #f2994a 0%, #ef96c5 100%)',
             boxShadow:'0px 10px 20px 0px #fdc0c7'
         },
         barValue: 80,
@@ -72,7 +71,7 @@ export const CardData =[
     {
         titles: 'Expenses',
         color: {
-            backGround: 'yellow',
+            backGround: 'linear-gradient(142deg,#DFEC51 0%,#73aada 100%)',
             //linear-gradient (rgb(248,212,154) -146.425%, rgb(255, 202, 113) -46.42%)',
             boxShadow:'0px 10px 20px 0px #f9d598b'
         },
