@@ -97,7 +97,7 @@ export const UpdatesData = [
     {
         img: img2,
         name: 'Olatoke AbdulQoyyum',
-        not1: 'has received Samsung gadget for chargin battery ',
+        not1: 'has received Samsung gadget for charging battery ',
         time: '25 minutes ago',
     },
     {
